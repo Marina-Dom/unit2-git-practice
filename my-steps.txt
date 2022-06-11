@@ -51,20 +51,20 @@ mv meats proteins
 ### Step 3E
 cd ..
 cd veggies
-mkdir carrot
-mkdir pea
+touch carrot.txt
+touch pea.txt
 
 ### Step 3F
 cd ..
 cd sweets
-mkdir cookie.txt
+touch cookie.txt
 
 ### Step 3G
 mv cookie.txt donut.txt
 
 ### Step 3H
 cd ..
-mkdir thing.txt
+touch thing.txt
 
 ### Step 3I
 cp -r thing.txt tofu.txt
@@ -92,10 +92,15 @@ ls
 rm -r drinks
 
 ### Step 4
+git add .
+git commit -m "first commit"
+
 
 
 ### Step 5
-
+git remote add origin https://github.com/Marina-Dom/unit2-git-practice.git
+git branch -M main
+git push -u origin main
 
 ### Step 6
 
