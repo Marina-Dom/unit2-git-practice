@@ -103,6 +103,11 @@ git branch -M main
 git push -u origin main
 
 ### Step 6
+touch menu.txt
+git status
+git add.
+git commit -m "commit 2 menu.txt"
+git push
 
 
 ### Step 7
